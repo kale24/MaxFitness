@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font Awsome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" />
+    <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/main.css">
+    <title>Max Fitness | Contact</title>
+</head>
+
+<body>
+    <header id="header-inner">
+        <div class="container">
+            <nav id="navbar">
+                <h1 class="logo"><span>Max </span>Fitness</h1>
+                <ul class="navbar-nav">
+                    <li><a href="index.html" class="nav-links">Home</a></li>
+                    <li><a href="about.html" class="nav-links">About</a></li>
+                    <li><a href="clasess.html" class="nav-links">Classes</a></li>
+                    <li><a href="contact.html" class="current nav-links">Contact</a></li>
+                </ul>
+                <a href="#contact" class="sign-up">Sign up</a>
+                <!-- Hamburger Menu -->
+                <span class="open-slide">
+                    <a href="#" onclick="openSlideMenu()">
+                        <svg width="30" height="30">
+                            <path d="M0,5 30,5" stroke="#fff" stroke-width="3" />
+                            <path d="M0,14 30,14" stroke="#fff" stroke-width="3" />
+                            <path d="M0,23 30,23" stroke="#fff" stroke-width="3" />
+                        </svg>
+                    </a>
+                </span>
+            </nav>
+            <!-- Mobile menu -->
+            <div id="side-menu" class="side-nav">
+                <a href="#" class="btn-close" onclick="closeSlideMenu()">&times;</a>
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="clasess.html">Classes</a>
+                <a href="contact.html" class="current">Contact</a>
+            </div>
+            <div class="text-center my-2 header-content">
+                <h2 class="l-heading">Contact</h2>
+                <a class="link" href="index.html"><i class="fas fa-home"></i> Home <i
+                        class="fas fa-chevron-right"></i></a> Contact
+            </div>
+        </div>
+    </header>
+    <!-- Map -->
+    <div class="map"></div>
+    <!-- Contact form -->
+    <section id="contact" class="text-center bg-dark py-2">
+        <div class="container">
+            <h2 class="l-heading">Contact Us</h2>
+            <div class="bottom-line"></div>
+            <form action="">
+                <div class="form-contact">
+                    <input type="text" class="text-input name-input" placeholder="Your Name" name="name">
+                    <input type="email" class="text-input email-input" placeholder="Your Email" name="email">
+                    <input type="text" class="text-input subject-input" placeholder="Subject" name="subject">
+                    <textarea class="text-input message-input" placeholder="Message" name="message" cols="30"
+                        rows="10"></textarea>
+                </div>
+                <button type="submit" class="btn-red">Submit</button>
+            </form>
+        </div>
+    </section>
+    <!-- New Members & Contact -->
+    <section id="classes-3">
+        <div class="new-member-1">
+            <div class="new-member-1-content">
+                <h3>New Member</h3>
+                <h2>7 days for free</h2>
+                <p>Complete the training sessions with us, surely you will be happy</p>
+                <a href="" class="btn-red">Get Started</a>
+            </div>
+        </div>
+        <div class="new-member-2">
+            <div class="new-member-2-content">
+                <h3>Contact Us</h3>
+                <h2>099 746 204</h2>
+                <p>If you trust us on your journey they dark sex does not disappoint you!</p>
+                <a href="" class="btn-red">Get Started</a>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer id="main-footer" class="bg-dark py-2">
+        <div class="container">
+            <div class="footer-content">
+                <div>
+                    <h3>Phone</h3>
+                    <p>(123) 118 999-(123) 118 999<p>
+                </div>
+                <div>
+                    <h3>Address</h3>
+                    <p>72 Kangnam, 45 Opal Point Suite 391</p>
+                </div>
+                <div>
+                    <h3>Email</h3>
+                    <p>contactcompany@Gutim.com</p>
+                </div>
+            </div>
+            <div class="subscribe py-2">
+                <div>
+                    <h2>Subsribe to our mailing list</h2>
+                    <p>Sign up to receive the latest information</p>
+                </div>
+                <div>
+                    <input type="email" placeholder="Enter Your Email"><i class="far fa-paper-plane"></i>
+                </div>
+            </div>
+            <div class="footer-info">
+                <p>Copyright &copy; 2019. All Rights Reserved</p>
+                <div class="social">
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-linkedin"></i>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="js/main.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBcGmsWO8OgyV-X6z8uNixe1pDOICAI04g&callback=initMap"
+        async defer></script>
+</body>
+
+</html>

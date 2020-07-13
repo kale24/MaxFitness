@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font Awsome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" />
+    <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/main.css">
+    <title>Max Fitness | Home</title>
+</head>
+
+<body>
+    <header id="header-home">
+        <div class="container">
+            <nav id="navbar">
+                <h1 class="logo"><span>Max </span>Fitness</h1>
+                <ul class="navbar-nav">
+                    <li><a href="index.html" class="current nav-links">Home</a></li>
+                    <li><a href="about.html" class="nav-links">About</a></li>
+                    <li><a href="clasess.html" class="nav-links">Classes</a></li>
+                    <li><a href="contact.html" class="nav-links">Contact</a></li>
+                </ul>
+                <a href="#contact" class="sign-up">Sign up</a>
+                <!-- Hamburger Menu -->
+                <span class="open-slide">
+                    <a href="#" onclick="openSlideMenu()">
+                        <svg width="30" height="30">
+                            <path d="M0,5 30,5" stroke="#fff" stroke-width="3" />
+                            <path d="M0,14 30,14" stroke="#fff" stroke-width="3" />
+                            <path d="M0,23 30,23" stroke="#fff" stroke-width="3" />
+                        </svg>
+                    </a>
+                </span>
+            </nav>
+            <!-- Mobile menu -->
+            <div id="side-menu" class="side-nav">
+                <a href="#" class="btn-close" onclick="closeSlideMenu()">&times;</a>
+                <a href="index.html" class="current">Home</a>
+                <a href="about.html">About</a>
+                <a href="clasess.html">Classes</a>
+                <a href="contact.html">Contact</a>
+            </div>
+            <!-- Header content -->
+            <div class="header-content">
+                <h2>Make the best out of your body</h2>
+                <p class="my-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non quas itaque, soluta
+                    cupiditate quibusdam
+                    quia sint dolor necessitatibus corporis eius.</p>
+                <a href="about.html" class="btn-red">Read More</a>
+            </div>
+        </div>
+    </header>
+    <!-- Gym Important -->
+    <section id="home-1" class="bg-dark text-center py-2">
+        <div class="container">
+            <div class="gym-important">
+                <div class="gym-important-content">
+                    <h2 class="l-heading">Why Gyming is good <span>for health?</span> </h2>
+                    <p class="my-2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab, nemo id quo totam
+                        laborum pariatur
+                        cum enim! Illum, nostrum nemo!</p>
+                    <a href="#" class="btn-red">JOIN CLASSES</a>
+                </div>
+                <div class="gym-important-icons">
+                    <i class="far fa-frown fa-3x"></i>
+                    <i class="fas fa-plus fa-3x"></i>
+                    <i class="fas fa-dumbbell fa-3x"></i>
+                    <i class="fas fa-equals fa-3x"></i>
+                    <i class="far fa-smile fa-3x"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Success Stories -->
+    <section id="home-2" class="bg-main text-center py-2">
+        <h2 class="l-heading">Success Stories</h2>
+        <div class="bottom-line"></div>
+        <div class="wrap my-5">
+            <div id="arrow-left" class="arrow"></div>
+            <div id="slider">
+                <div class="slide slide1">
+                    <div class="slide-content">
+                        <p class="s-heading">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi ut
+                            repudiandae eos vitae,
+                            dignissimos provident, sunt, dolor impedit voluptate fugit facilis. Iusto corporis nemo
+                            sequi distinctio autem. Rem, vel distinctio!</p>
+                        <img class="my-1" src="./img/testimonials/woman-of-the-week-crop-1537809544-1093x1093.jpg"
+                            alt="">
+                    </div>
+                </div>
+                <div class="slide slide2">
+                    <div class="slide-content">
+                        <p class="s-heading">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
+                            accusantium dolores fugiat id, adipisci laboriosam, enim explicabo neque nisi sit aut,
+                            corporis iusto dolor? Itaque vitae quod facilis explicabo sit!</p>
+                        <img class="my-1" src="./img/testimonials/person3.jpg" alt="">
+                    </div>
+                </div>
+                <div class="slide slide3">
+                    <div class="slide-content">
+                        <p class="s-heading">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit
+                            nesciunt molestias doloribus? Numquam eligendi repellendus ullam hic asperiores
+                            fugit quibusdam aperiam cupiditate eaque architecto, reiciendis esse. Odio ullam
+                            voluptatem ipsum! </p>
+                        <img class="my-1" src="./img/testimonials/person2.jpg" alt="">
+                    </div>
+                </div>
+                <div id="arrow-right" class="arrow"></div>
+
+            </div>
+    </section>
+    <!-- Memebership Plans -->
+    <section id="home-3" class="text-center bg-main py-2">
+        <div class="container">
+            <h2 class="l-heading"><span class="member">Membership</span> Plans</h2>
+            <div class="bottom-line"></div>
+            <div class="plans">
+                <div class="plan-1">
+                    <h2 class="box m-heading">Basic</h2>
+                    <ul>
+                        <li><i class="fas fa-euro-sign fa-2x"></i><span>17</span>/ 01 mo</li>
+                        <li>
+                            <p>Duration</p>
+                            <p>12 months</p>
+                        </li>
+                        <li>
+                            <p>Personal trainer</p>
+                            <p>1 person</p>
+                        </li>
+                        <li>
+                            <p>Amount of people</p>
+                            <p>1 person</p>
+                        </li>
+                        <li>
+                            <p>Number of visits</p>
+                            <p>Unlimited</p>
+                        </li>
+                    </ul>
+                    <a href="#" class="my-1 btn-light">Start Now</a>
+                </div>
+                <div class="plan-2">
+                    <h2 class="box m-heading">Standard</h2>
+                    <ul>
+                        <li><i class="fas fa-euro-sign fa-2x"></i><span>57</span>/ 01 mo</li>
+                        <li>
+                            <p>Duration</p>
+                            <p>12 months</p>
+                        </li>
+                        <li>
+                            <p>Personal trainer</p>
+                            <p>1 person</p>
+                        </li>
+                        <li>
+                            <p>Amount of people</p>
+                            <p>1 person</p>
+                        </li>
+                        <li>
+                            <p>Number of visits</p>
+                            <p>Unlimited</p>
+                        </li>
+                    </ul>
+                    <a href="#" class="my-1 btn-light">Start Now</a>
+                </div>
+                <div class="plan-3">
+                    <h2 class="box m-heading">Premium</h2>
+                    <ul>
+                        <li><i class="fas fa-euro-sign fa-2x"></i><span>98</span> / 01 mo</li>
+                        <li>
+                            <p>Duration</p>
+                            <p>12 months</p>
+                        </li>
+                        <li>
+                            <p>Personal trainer</p>
+                            <p>1 person</p>
+                        </li>
+                        <li>
+                            <p>Amount of people</p>
+                            <p>1 person</p>
+                        </li>
+                        <li>
+                            <p>Number of visits</p>
+                            <p>Unlimited</p>
+                        </li>
+                    </ul>
+                    <a href="#" class="my-1 btn-light">Start Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer id="main-footer" class="bg-dark py-2">
+        <div class="container">
+            <div class="footer-content">
+                <div>
+                    <h3>Phone</h3>
+                    <p>(123) 118 999-(123) 118 999<p>
+                </div>
+                <div>
+                    <h3>Address</h3>
+                    <p>72 Kangnam, 45 Opal Point Suite 391</p>
+                </div>
+                <div>
+                    <h3>Email</h3>
+                    <p>contactcompany@Gutim.com</p>
+                </div>
+            </div>
+            <div class="subscribe py-2">
+                <div>
+                    <h2>Subsribe to our mailing list</h2>
+                    <p>Sign up to receive the latest information</p>
+                </div>
+                <div>
+                    <input type="email" placeholder="Enter Your Email"><i class="far fa-paper-plane"></i>
+                </div>
+            </div>
+            <div class="footer-info">
+                <p>Copyright &copy; 2019. All Rights Reserved</p>
+                <div class="social">
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-linkedin"></i>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
