@@ -1,0 +1,296 @@
+// Tablet
+@media (max-width: 800px) {
+    #main-header {
+        .header-content {
+            margin-top: 20%;
+        }
+    }
+
+    #navbar {
+        li {
+            padding: 1rem 0.7rem;
+        }
+    }
+}
+
+// Smartphone
+@media(max-width:568px) {
+
+    #header {
+
+        &-home {
+            .header-content {
+                width: 100%;
+                text-align: center;
+
+                h2 {
+                    font-size: 2rem;
+                }
+            }
+        }
+
+        &-inner {
+            h2 {
+                font-size: 2.3rem;
+            }
+        }
+    }
+
+    #navbar {
+        .navbar-nav {
+            display: none
+        }
+
+        .sign-up {
+            display: none;
+        }
+    }
+
+    #home-1 .gym-important,
+    #home-3 .plans,
+    #about-1 .about,
+    #about-2 .boxes,
+    #about-3 .best-gym,
+    #about-4 .training,
+    #about-5 .trainers,
+    #classes-1 .programs,
+    #main-footer .footer-content {
+        grid-template-columns: 1fr;
+    }
+
+    // Gym Important
+    #home-1 {
+        .gym-important {
+            &-icons {
+                display: none;
+            }
+        }
+
+        h2 {
+            line-height: 1.3;
+        }
+    }
+
+    // Testimonials
+    #home-2 {
+
+        h2 {
+            line-height: 1.3;
+        }
+
+        .wrap {
+            #arrow-left {
+                margin-left: 8px;
+
+            }
+
+            #arrow-right {
+                margin-right: 8px;
+            }
+        }
+
+        .slide-content {
+            width: 80%;
+            margin: auto;
+
+            img {
+                width: 25%;
+            }
+        }
+    }
+
+    // Membership Plans
+    #home-3 {
+        height: 122rem;
+
+        .member {
+            display: flex;
+            justify-content: center;
+            line-height: 1.2;
+        }
+    }
+
+    // About Sections
+
+    #about {
+
+        // About
+        &-1 {
+            h2 {
+                line-height: 1.3;
+            }
+        }
+
+        // Best Gym Award
+        &-3 {
+            h2 {
+                line-height: 1.3;
+            }
+        }
+
+        // Get Training Today
+        &-4 {
+            height: 47.7rem;
+
+            .training {
+                h2 {
+                    margin-top: 0rem;
+                    line-height: 1.3;
+                }
+
+                img {
+                    width: 80%;
+                }
+            }
+        }
+
+        // Trainers
+        &-5 {
+            .trainers {
+
+                .trainer {
+
+                    img {
+                        width: 200px;
+                        height: 200px;
+                        border-radius: 50%;
+                    }
+                }
+            }
+        }
+    }
+
+    // Classes Section
+
+    #classes {
+        &-1 {
+            .programs {
+                &-picture {
+                    img {
+                        display: none;
+                    }
+                }
+            }
+        }
+        // Table
+        &-2 {
+            h2 {
+                line-height: 1.3;
+            }
+            .time-table {
+                overflow-x: auto;
+
+                table {
+                    table-layout: auto;
+
+                    th {
+                        padding-left: 10px;
+                    }
+                }
+            }
+        }
+        // New Members
+        &-3 {
+            flex-direction: column;
+            height: 40rem;
+
+            .new-member-1 {
+                width: 100%;
+                height: 20rem;
+
+                &-content {
+                    padding-left: 4rem;
+
+                    h3 {
+                        margin-top: 3.5rem;
+                    }
+
+                    h2 {
+                        margin-top: 1rem;
+                    }
+
+                    p {
+                        margin-bottom: 1rem;
+                    }
+                }
+            }
+
+            .new-member-2 {
+                width: 100%;
+                height: 20rem;
+
+                &-content {
+                    padding-left: 4rem;
+
+                    h3 {
+                        margin-top: 3.5rem;
+                    }
+
+                    h2 {
+                        margin-top: 1rem;
+                    }
+
+                    p {
+                        margin-bottom: 1rem;
+                    }
+                }
+            }
+        }
+
+    }
+
+
+}
+
+
+// Contact
+#contact {
+    .form-contact {
+        grid-template-areas:
+            'name'
+            'email'
+            'subject'
+            'message';
+    }
+
+    button[type='submit'] {
+        width: 50%;
+    }
+}
+
+// Footer
+#main-footer {
+
+    .footer-content {
+        div {
+            padding-bottom: 1rem;
+        }
+    }
+
+    .subscribe {
+        flex-direction: column;
+        text-align: center;
+
+        div:nth-child(2) {
+            padding: 10px 0;
+        }
+    }
+
+    .footer-info {
+        flex-direction: column;
+
+        .social {
+            padding-top: 10px;
+        }
+    }
+}
+
+
+
+
+
+@media(min-width:568px) {
+    .open-slide {
+        display: none
+    }
+}

@@ -1,0 +1,155 @@
+@import 'variables';
+
+.link {
+    color: $light-color;
+}
+
+.l-heading {
+    font-size: 3rem;
+    font-weight: bolder;
+    color: $light-color;
+}
+
+.m-heading {
+    font-size: 2rem;
+    font-weight: bolder;
+    color: $light-color;
+    line-height: 1.2;
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+    padding: 0.4rem;
+    background-color: #fff;
+}
+
+.s-heading {
+    font-size: 1.3rem;
+    font-family: fantasy;
+    font-style: italic;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 2rem;
+    overflow: hidden;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.bottom-line {
+    display: block;
+    margin: 0 auto 2rem;
+    height: 4px;
+    width: 8rem;
+    background-color: $side-color;
+}
+
+.bottom-line-light {
+    display: block;
+    margin: 0.5rem auto;
+    height: 2px;
+    width: 6rem;
+    background-color: $side-color;
+}
+
+// Padding
+.py {
+    &-1 {
+        padding: 1rem 0;
+    }
+
+    &-2 {
+        padding: 2rem 0;
+    }
+
+    &-3 {
+        padding: 3rem 0;
+    }
+
+    &-4 {
+        padding: 7rem 0;
+    }
+}
+
+// Margin
+.my {
+    &-1 {
+        margin: 1rem 0;
+    }
+
+    &-2 {
+        margin: 2rem 0;
+    }
+
+    &-3 {
+        margin: 3rem 0;
+    }
+
+    &-4 {
+        margin: 4rem 0;
+    }
+}
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 2rem;
+    overflow: hidden;
+}
+
+%btn {
+    display: inline-block;
+    padding: 0.5rem 2rem;
+    border: none;
+    font-size: 1.2rem;
+    transition: all 0.4s;
+}
+
+.btn {
+    &-red {
+        @extend %btn;
+        color: #fff;
+        background-color: red;
+
+        &:hover {
+            background: #fff;
+            color: red;
+        }
+    }
+
+    &-light {
+        @extend %btn;
+        color: #fff;
+        border: 2px solid #fff;
+        background-color: transparent;
+
+        &:hover {
+            background: #fff;
+            color: #000;
+        }
+    }
+}
+
+.bg {
+    &-main {
+        background-color: $main-color;
+        color: $light-color;
+    }
+
+    &-dark {
+        background-color: $dark-color;
+        color: $light-color;
+    }
+}
+
+.box {
+    background: #000;
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
